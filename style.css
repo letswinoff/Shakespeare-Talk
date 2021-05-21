@@ -12,9 +12,19 @@
 
 body{
     margin: 0;
+    padding: 0;
+    background-image: url(https://scontent.fpat3-3.fna.fbcdn.net/v/t1.18169-9/10569079_907694035946080_3740931323087371971_n.png?_nc_cat=110&ccb=1-3&_nc_sid=e3f864&_nc_ohc=1SqYjaFhqaoAX-_dicp&_nc_ht=scontent.fpat3-3.fna&oh=fa55fae1857c163e26b13461742d2c83&oe=60CE4E7E);
+    background-size: contain;
+    background-repeat: no-repeat;
     font-family: 'Pattaya', sans-serif;
+    background-size: 100% 152%;
     color: #333333;
+
 }
+
+img {
+    opacity: 0.5;
+  }
 
 nav{
     background-color: var(--primary);
@@ -34,6 +44,7 @@ textarea{
     min-height: 20vh;
     margin-top: 2rem;
     font-size: large;
+    padding: 1rem;
     font-family: inherit;
 }
 
@@ -57,6 +68,9 @@ button{
     max-height: 20vh;
     width: 100%;
     overflow: scroll;
+    display: block;
+    color: #00000080;
+    background-color: white;
 }
 
 footer{
