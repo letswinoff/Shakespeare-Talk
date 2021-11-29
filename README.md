@@ -9,3 +9,6 @@ This web app is buit using:
 * HTML
 * CSS
 * VanilaJS
+
+## Sample
+![ ](screenshot1.png)
